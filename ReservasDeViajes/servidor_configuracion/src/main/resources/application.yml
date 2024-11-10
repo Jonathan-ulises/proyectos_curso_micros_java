@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+## Para archivos de configuracion en carpeta local
+# spring:
+#   profiles:
+#     active:
+#     - native
+#   cloud:
+#     config:
+#       server:
+#         native:
+#           search-locations:
+#           - file:///c:\temp\config
+
+## Para archivos de configuracion en repositorio remoto
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Jonathan-ulises/configuracion_servicios.git

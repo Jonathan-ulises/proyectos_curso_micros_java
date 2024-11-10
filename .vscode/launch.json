@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroservicioContacto04Application<microservicio_contacto_04>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicios.microservicio_contacto_04.MicroservicioContacto04Application",
+            "projectName": "microservicio_contacto_04",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=52552 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=microservicio_contacto_04"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosClienteContactos05Application<microservicios_cliente_contactos_05>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicios.microservicios_cliente_contactos_05.MicroserviciosClienteContactos05Application",
+            "projectName": "microservicios_cliente_contactos_05",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroserviciosClienteContactos05Application<microservicios_cliente_contactos_05_web_client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicios.microservicios_cliente_contactos_05.MicroserviciosClienteContactos05Application",
+            "projectName": "microservicios_cliente_contactos_05_web_client",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServer08Application<com.microservicios-eureka_server_08>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicios.eureka_server_08.EurekaServer08Application",
+            "projectName": "com.microservicios-eureka_server_08",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroHotelesApplication<com.microservicios-micro_hoteles>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservicios.micro_hoteles.MicroHotelesApplication",
+            "projectName": "com.microservicios-micro_hoteles",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
